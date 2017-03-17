@@ -13,6 +13,14 @@
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (GND_POWER
+      (LibraryName
+         "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (AXP288
+      (FullPartName "AXP288.Normal")
+      (LibraryName "C:\WORK\PROJECT\LIB\CADENCELIB\LIBRARY0.OLB")
+      (DeviceIndex "0"))
     (PORTLEFT-R
       (LibraryName
          "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
@@ -23,13 +31,24 @@
       (Path "Design Resources" ".\xc7z020.dsn")
       (Path "Design Resources" ".\xc7z020.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" "..\lib\cadencelib\library0.olb"))
+      (Path "Design Resources" "Library" "..\lib\cadencelib\library0.olb")
+      (Select "Design Resources" "Library" "..\lib\cadencelib\library0.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 292"))
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 292"))
       (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 52 1260 52 383")
+        (Scroll "-26 0")
+        (Zoom "78")
+        (Occurrence "/"))
+      (Path "C:\WORK\PROJECT\XC7Z020_CLG484\XC7Z020.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PWR"))
     (Doc
       (Type "COrPartDoc")
       (Frame
@@ -40,15 +59,5 @@
         (Scroll "288 0")
         (Zoom "248"))
       (Path "C:\WORK\PROJECT\LIB\CADENCELIB\LIBRARY0.OLB")
-      (Package "AXP288"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1260 52 383")
-        (Scroll "-263 0")
-        (Zoom "39")
-        (Occurrence "/"))
-      (Path "C:\WORK\PROJECT\XC7Z020_CLG484\XC7Z020.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PWR")))
+      (Package "AXP288")))
   (MPSSessionName "zhuya"))
