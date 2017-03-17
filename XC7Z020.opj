@@ -28,11 +28,12 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\xc7z020.dsn")
-      (Path "Design Resources" ".\xc7z020.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "c:\work\project\xc7z020_clg484\xc7z020.dsn")
+      (Path "Design Resources" "c:\work\project\xc7z020_clg484\xc7z020.dsn"
+         "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" "..\lib\cadencelib\library0.olb")
-      (Select "Design Resources" "Library" "..\lib\cadencelib\library0.olb"))
+      (Path "Design Resources" "Library"
+         "c:\work\project\lib\cadencelib\library0.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
