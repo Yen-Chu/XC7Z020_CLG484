@@ -17,10 +17,38 @@
       (LibraryName
          "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
+    (AP6354
+      (FullPartName "AP6354B.Normal")
+      (LibraryName "C:\WORK\CADENCELIB\LIBRARY0.OLB")
+      (DeviceIndex "1"))
+    (AO3400
+      (FullPartName "AO3400.Normal")
+      (LibraryName "C:\WORK\CADENCELIB\LIBRARY0.OLB")
+      (DeviceIndex "0"))
+    (TPD3S044
+      (FullPartName "TPD3S044.Normal")
+      (LibraryName "C:\WORK\CADENCELIB\LIBRARY0.OLB")
+      (DeviceIndex "0"))
+    (USB3320
+      (FullPartName "USB3320.Normal")
+      (LibraryName "C:\WORK\CADENCELIB\LIBRARY0.OLB")
+      (DeviceIndex "0"))
+    (TCXO
+      (FullPartName "TCXO.Normal")
+      (LibraryName "C:\WORK\CADENCELIB\LIBRARY0.OLB")
+      (DeviceIndex "0"))
+    (88E1512
+      (FullPartName "88E1512B.Normal")
+      (LibraryName "C:\WORK\CADENCELIB\LIBRARY0.OLB")
+      (DeviceIndex "1"))
     (VCC_BAR
       (LibraryName
          "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
+    (XC7Z020_CLG484
+      (FullPartName "XC7Z020_CLG484J.Normal")
+      (LibraryName "C:\WORK\CADENCELIB\LIBRARY0.OLB")
+      (DeviceIndex "9"))
     (CAP_NP
       (FullPartName "CAP_NP.Normal")
       (LibraryName "C:\WORK\CADENCELIB\LIBRARY0.OLB")
@@ -35,14 +63,6 @@
       (DeviceIndex "0"))
     (RES
       (FullPartName "RES.Normal")
-      (LibraryName "C:\WORK\CADENCELIB\LIBRARY0.OLB")
-      (DeviceIndex "0"))
-    (XC7Z020_CLG484
-      (FullPartName "XC7Z020_CLG484A.Normal")
-      (LibraryName "C:\WORK\CADENCELIB\LIBRARY0.OLB")
-      (DeviceIndex "0"))
-    (TCXO
-      (FullPartName "TCXO.Normal")
       (LibraryName "C:\WORK\CADENCELIB\LIBRARY0.OLB")
       (DeviceIndex "0"))
     (S25FLxxxSxxB
@@ -65,10 +85,6 @@
       (FullPartName "STM8L101FxUx.Normal")
       (LibraryName "C:\WORK\CADENCELIB\LIBRARY0.OLB")
       (DeviceIndex "0"))
-    (AO3400
-      (FullPartName "AO3400.Normal")
-      (LibraryName "C:\WORK\CADENCELIB\LIBRARY0.OLB")
-      (DeviceIndex "0"))
     (PORTLEFT-R
       (LibraryName
          "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
@@ -82,19 +98,21 @@
       (Path "Design Resources" "c:\work\xc7z020_clg484\xc7z020.dsn"
          "Design Cache")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" "c:\work\cadencelib\library0.olb"))
+      (Path "Design Resources" "Library" "c:\work\cadencelib\library0.olb")
+      (Select "Design Resources" "c:\work\xc7z020_clg484\xc7z020.dsn"
+         "Design Cache" "AP6354"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 292"))
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 292"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 104 1740 104 563")
-        (Scroll "868 191")
-        (Zoom "216")
+        (Scroll "724 268")
+        (Zoom "180")
         (Occurrence "/"))
       (Path "C:\WORK\XC7Z020_CLG484\XC7Z020.DSN")
       (Schematic "SCHEMATIC1")
@@ -113,10 +131,20 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 130 1472 130 589")
-        (Scroll "257 618")
+        (Scroll "257 725")
         (Zoom "108")
         (Occurrence "/"))
       (Path "C:\WORK\XC7Z020_CLG484\XC7Z020.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "DDR3")))
+      (Page "DDR3"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 156 1792 156 615")
+        (Scroll "-392 -6")
+        (Zoom "45")
+        (Occurrence "/"))
+      (Path "C:\WORK\XC7Z020_CLG484\XC7Z020.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "ETH/USB/WiFi/BT")))
   (MPSSessionName "Yen Chu"))
