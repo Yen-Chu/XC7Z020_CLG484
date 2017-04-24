@@ -13,6 +13,10 @@
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (XC7Z020_CLG484
+      (FullPartName "XC7Z020_CLG484K.Normal")
+      (LibraryName "C:\WORK\CADENCELIB\LIBRARY0.OLB")
+      (DeviceIndex "10"))
     (ALC5640-VB
       (FullPartName "ALC5640-VBD.Normal")
       (LibraryName "C:\WORK\CADENCELIB\LIBRARY0.OLB")
@@ -53,10 +57,6 @@
       (LibraryName
          "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
-    (XC7Z020_CLG484
-      (FullPartName "XC7Z020_CLG484J.Normal")
-      (LibraryName "C:\WORK\CADENCELIB\LIBRARY0.OLB")
-      (DeviceIndex "9"))
     (CAP_NP
       (FullPartName "CAP_NP.Normal")
       (LibraryName "C:\WORK\CADENCELIB\LIBRARY0.OLB")
@@ -107,8 +107,7 @@
          "Design Cache")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" "c:\work\cadencelib\library0.olb")
-      (Select "Design Resources" "c:\work\xc7z020_clg484\xc7z020.dsn"
-         "SCHEMATIC1" "DDR3"))
+      (Select "Design Resources" "Library" "c:\work\cadencelib\library0.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -119,8 +118,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 104 1740 104 563")
-        (Scroll "-353 0")
-        (Zoom "54")
+        (Scroll "0 1063")
+        (Zoom "216")
         (Occurrence "/"))
       (Path "C:\WORK\XC7Z020_CLG484\XC7Z020.DSN")
       (Schematic "SCHEMATIC1")
@@ -129,8 +128,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 130 1472 130 589")
-        (Scroll "-206 0")
-        (Zoom "54")
+        (Scroll "0 509")
+        (Zoom "108")
         (Occurrence "/"))
       (Path "C:\WORK\XC7Z020_CLG484\XC7Z020.DSN")
       (Schematic "SCHEMATIC1")
@@ -149,10 +148,21 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 156 1792 156 615")
-        (Scroll "1603 1313")
+        (Scroll "-18 618")
+        (Zoom "108")
+        (Occurrence "/"))
+      (Path "C:\WORK\XC7Z020_CLG484\XC7Z020.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "ETH/USB/WiFi/BT/AUDIO"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 26 1368 26 485")
+        (Scroll "78 207")
         (Zoom "216")
         (Occurrence "/"))
       (Path "C:\WORK\XC7Z020_CLG484\XC7Z020.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "ETH/USB/WiFi/BT/AUDIO")))
-  (MPSSessionName "Yen Chu"))
+      (Page "JTAG")))
+  (MPSSessionName "Yen Chu")
+  (LastUsedLibraryBrowseDirectory "C:\WORK\cadencelib"))
