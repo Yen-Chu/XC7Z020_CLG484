@@ -120,73 +120,13 @@
       (Path "Design Resources" ".\xc7z020.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" "..\cadencelib\library0.olb")
-      (Select "Design Resources" "Library" "..\cadencelib\library0.olb"))
+      (Select "Design Resources" ".\xc7z020.dsn" "SCHEMATIC1" "PS_DDR3"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 292"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 182 1818 182 641")
-        (Scroll "-18 90")
-        (Zoom "108")
-        (Occurrence "/"))
-      (Path "D:\WORK\XC7Z020_CLG484\XC7Z020.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "ETH/USB/WiFi/BT/AUDIO"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 208 1844 208 667")
-        (Scroll "0 186")
-        (Zoom "216")
-        (Occurrence "/"))
-      (Path "D:\WORK\XC7Z020_CLG484\XC7Z020.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "JTAG"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 1636 0 459")
-        (Scroll "1261 297")
-        (Zoom "216")
-        (Occurrence "/"))
-      (Path "D:\WORK\XC7Z020_CLG484\XC7Z020.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PWR"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 26 1368 26 485")
-        (Scroll "0 429")
-        (Zoom "108")
-        (Occurrence "/"))
-      (Path "D:\WORK\XC7Z020_CLG484\XC7Z020.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PL_DDR3"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 78 1420 78 537")
-        (Scroll "0 0")
-        (Zoom "108")
-        (Occurrence "/"))
-      (Path "D:\WORK\XC7Z020_CLG484\XC7Z020.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PS_DDR3"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 208 1844 208 667")
-        (Scroll "0 0")
-        (Zoom "108")
-        (Occurrence "/"))
-      (Path "D:\WORK\XC7Z020_CLG484\XC7Z020.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE1")))
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 292"))
+      (Tab 0)))
   (MPSSessionName "zhuya")
   (LastUsedLibraryBrowseDirectory
      "C:\Cadence\Cadence_SPB_17.2-2016\tools\capture\library"))
